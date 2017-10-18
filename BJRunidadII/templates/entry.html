@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block body %}
+    <h2>{{ the_title }}</h2>
+    <form method="POST" action="/test_module3">
+    <table>
+        <p>Ingresa el lado del cubo</p>
+        <tr>
+            <td>a:</td>
+            <td><input type="number" name="a"/></td>
+        </tr>
+    </table>
+    <p><input type="submit" name="AREA" value="CALCULAR"></p>
+    </form>
+{% endblock %}
